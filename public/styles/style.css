@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+body,
+a,
+input,
+button,
+textarea {
+  font: 500 18px sans-serif;
+  opacity: 95%;
+  color: var(--color-text-base);
+}
+
+h1 {
+  font-size: 84px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+input,
+textarea {
+  padding: 16px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  background-color: var(--color-background-input);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 234px;
+}
+
+.section-title {
+  margin-bottom: 48px;
+}
