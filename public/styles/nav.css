@@ -48,6 +48,10 @@
 	gap: 1.5rem;
 }
 
+#topbar #menu #nav-desktop {
+	display: none;
+}
+
 #topbar #menu .button-container {
 	display: flex;
 	align-items: center;
@@ -70,7 +74,6 @@
 	height: 48px;
 	border-radius: 8px;
 	border: none;
-	cursor: pointer;
 	background-color: var(--color-background);
 }
 
@@ -85,14 +88,20 @@
 	fill: var(--color-primary);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
 	#topbar #logo a p {
 		display: block;
 		padding-top: 4px;
 	}
 
 	#topbar #menu {
-		gap: 6rem;
+		gap: 2rem;
+	}
+
+	#topbar #menu #nav-desktop {
+		display: flex;
+		align-items: center;
+		gap: 1.2rem;
 	}
 
 	#topbar #menu .button-container:nth-child(3) {

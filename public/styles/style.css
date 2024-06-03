@@ -61,6 +61,10 @@ textarea {
 	min-height: 234px;
 }
 
+button {
+	cursor: pointer;
+}
+
 @media screen and (min-width: 1024px) {
 	body {
 		overflow-x: hidden;
