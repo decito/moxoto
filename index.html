@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,11 +23,36 @@
 				</button>
 
 				<div id="nav-side-links">
-					<a href="#section-melhores" onclick="closeNavside()">MELHORES</a>
-					<a href="#section-horarios" onclick="closeNavside()">HORÁRIOS</a>
-					<a href="#section-cardapio" onclick="closeNavside()">CARDÁPIO</a>
-					<a href="#section-historia" onclick="closeNavside()">HISTÓRIA</a>
-					<a href="#section-contato" onclick="closeNavside()">CONTATO</a>
+					<a
+						data-translate="menu_1"
+						href="#section-melhores"
+						onclick="closeNavside()"
+						>MELHORES</a
+					>
+					<a
+						data-translate="menu_2"
+						href="#section-horarios"
+						onclick="closeNavside()"
+						>HORÁRIOS</a
+					>
+					<a
+						data-translate="menu_3"
+						href="#section-cardapio"
+						onclick="closeNavside()"
+						>CARDÁPIO</a
+					>
+					<a
+						data-translate="menu_4"
+						href="#section-historia"
+						onclick="closeNavside()"
+						>HISTÓRIA</a
+					>
+					<a
+						data-translate="menu_5"
+						href="#section-contato"
+						onclick="closeNavside()"
+						>CONTATO</a
+					>
 				</div>
 			</div>
 		</nav>
@@ -50,15 +75,28 @@
 
 				<div id="menu">
 					<nav id="nav-desktop">
-						<a href="#section-melhores">MELHORES</a>
-						<a href="#section-horarios">HORÁRIOS</a>
-						<a href="#section-cardapio">CARDÁPIO</a>
-						<a href="#section-historia">HISTÓRIA</a>
-						<a href="#section-contato">CONTATO</a>
+						<a data-translate="menu_1" href="#section-melhores"
+							>MELHORES</a
+						>
+						<a data-translate="menu_2" href="#section-horarios"
+							>HORÁRIOS</a
+						>
+						<a data-translate="menu_3" href="#section-cardapio"
+							>CARDÁPIO</a
+						>
+						<a data-translate="menu_4" href="#section-historia"
+							>HISTÓRIA</a
+						>
+						<a data-translate="menu_5" href="#section-contato">CONTATO</a>
 					</nav>
 
 					<div class="button-container">
-						<button id="lang-toggle" type="button" title="lang">
+						<button
+							id="lang-toggle"
+							type="button"
+							title="lang"
+							onclick="traduzir()"
+						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								width="24"
@@ -97,9 +135,11 @@
 					<div class="mask"></div>
 
 					<div class="hero-info">
-						<h1>A <span>MELHOR</span> DA REGIÃO</h1>
-						<p>
-							Mocotó Steak House é um ambiente acolhedor e descontraído,
+						<h1 data-translate="hero_title">
+							A <span>MELHOR</span> DA REGIÃO
+						</h1>
+						<p data-translate="bem_vindo">
+							MCT SteakHouse é um ambiente acolhedor e descontraído,
 							decorado com artesanato local e música nordestina ao vivo
 							nas noites de sexta-feira, com deliciosos hambúrgueres e
 							petiscos.
@@ -579,5 +619,6 @@
 
 		<script src="public/scripts/form.js"></script>
 		<script src="public/scripts/navside.js"></script>
+		<script src="public/scripts/translate.js"></script>
 	</body>
 </html>
