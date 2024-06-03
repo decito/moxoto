@@ -1,0 +1,101 @@
+#topbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 16px 32px;
+	background-color: var(--color-background);
+	z-index: 1;
+	position: fixed;
+	border-bottom: 4px solid var(--color-primary);
+	align-items: center;
+	width: 100%;
+}
+
+#topbar a {
+	padding: 12px;
+	text-decoration: none;
+	color: var(--color-text-title);
+}
+
+#topbar div a:hover {
+	text-decoration: underline;
+}
+
+#topbar a,
+#topbar p {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+#topbar #logo a {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+#topbar #logo a p {
+	display: none;
+}
+
+#topbar #logo svg {
+	width: 32px;
+	height: 32px;
+	fill: var(--color-text-title);
+}
+
+#topbar #menu {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+#topbar #menu .button-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	min-width: 48px;
+	min-height: 48px;
+	width: 48px;
+	height: 48px;
+}
+
+#topbar #menu button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	min-width: 48px;
+	min-height: 48px;
+	width: 48px;
+	height: 48px;
+	border-radius: 8px;
+	border: none;
+	cursor: pointer;
+	background-color: var(--color-background);
+}
+
+#topbar #menu .button-container button:hover {
+	border-radius: 50%;
+	border: 1px solid var(--color-button-hover);
+}
+
+#topbar #menu .button-container button svg {
+	width: 24px;
+	height: 24px;
+	fill: var(--color-primary);
+}
+
+@media screen and (min-width: 1024px) {
+	#topbar #logo a p {
+		display: block;
+		padding-top: 4px;
+	}
+
+	#topbar #menu {
+		gap: 6rem;
+	}
+
+	#topbar #menu .button-container:nth-child(3) {
+		display: none;
+	}
+}

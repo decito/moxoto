@@ -1,611 +1,551 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="public/styles/style.css" />
-    <link rel="stylesheet" href="public/styles/page.css" />
-    <link rel="stylesheet" href="public/styles/colors.css" />
-  </head>
-  <body>
-    <div id="container">
-      <nav>
-        <a href="#">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-            <path
-              d="M61.1 224C45 224 32 211 32 194.9c0-1.9 .2-3.7 .6-5.6C37.9 168.3 78.8 32 256 32s218.1 136.3 223.4 157.3c.5 1.9 .6 3.7 .6 5.6c0 16.1-13 29.1-29.1 29.1H61.1zM144 128a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm240 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM272 96a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM16 304c0-26.5 21.5-48 48-48H448c26.5 0 48 21.5 48 48s-21.5 48-48 48H64c-26.5 0-48-21.5-48-48zm16 96c0-8.8 7.2-16 16-16H464c8.8 0 16 7.2 16 16v16c0 35.3-28.7 64-64 64H96c-35.3 0-64-28.7-64-64V400z"
-            />
-          </svg>
-
-          <p>COMIDA BOA!</p>
-        </a>
-
-        <div>
-          <a href="#section-melhores">MELHORES</a>
-          <a href="#section-horarios">HORÁRIOS</a>
-          <a href="#section-cardapio">CARDÁPIO</a>
-          <a href="#section-historia">HISTÓRIA</a>
-          <a href="#section-contato">CONTATO</a>
-        </div>
-      </nav>
-
-      <main>
-        <section id="section-hero">
-          <div class="mask"></div>
-
-          <div class="hero-info">
-            <h1>A <span>MELHOR</span> DA REGIÃO</h1>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
-              omnis corrupti cum sequi, minima commodi. Minima non perferendis,
-              debitis neque possimus quaerat aut dolor facere consectetur dicta
-              hic iure tempore.
-            </p>
-          </div>
-        </section>
-
-        <section id="section-melhores">
-          <div class="wrapper">
-            <div class="melhores-left">
-              <div class="melhores-info">
-                <h2 class="section-title">MELHORES DA CASA</h2>
-
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veritatis nesciunt nemo delectus velit excepturi perspiciatis
-                  tempora ducimus aut, itaque saepe! Esse molestias totam
-                  voluptates magni distinctio corporis vel fugiat sit?
-                </p>
-              </div>
-            </div>
-
-            <div class="melhores-right">
-              <div class="card">
-                <img
-                  src="https://dummyimage.com/150x100/000/fff"
-                  alt="hamburguer"
-                />
-                <h3>Hamburguer</h3>
-
-                <div class="card-footer">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </p>
-                </div>
-              </div>
-
-              <div class="card">
-                <img
-                  src="https://dummyimage.com/150x100/000/fff"
-                  alt="batata-rustica"
-                />
-                <h3>Batata Rústica</h3>
-
-                <div class="card-footer">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </p>
-                </div>
-              </div>
-
-              <div class="card">
-                <img
-                  src="https://dummyimage.com/150x100/000/fff"
-                  alt="milk-shake"
-                />
-                <h3>Milk Shake</h3>
-
-                <div class="card-footer">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </p>
-                </div>
-              </div>
-
-              <div class="card">
-                <img
-                  src="https://dummyimage.com/150x100/000/fff"
-                  alt="bolo-morango"
-                />
-                <h3>Bolo de Morango</h3>
-
-                <div class="card-footer">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="section-horarios">
-          <div class="wrapper">
-            <h2 class="section-title text-center">HORÁRIOS</h2>
-
-            <div class="horarios-info">
-              <div class="card">
-                <img
-                  src="https://dummyimage.com/150x100/000/fff"
-                  alt="morro-belem"
-                />
-
-                <h3>MORRO DE BELÉM</h3>
-
-                <div class="card-footer">
-                  <p>Segundas às sextas</p>
-
-                  <p>12h às 22h</p>
-                </div>
-              </div>
-
-              <div class="card">
-                <img src="https://dummyimage.com/150x100/000/fff" alt="torre" />
-
-                <h3>TORRE</h3>
-
-                <div class="card-footer">
-                  <p>Terças às sextas</p>
-
-                  <p>10h às 23h</p>
-                </div>
-              </div>
-
-              <div class="card">
-                <img
-                  src="https://dummyimage.com/150x100/000/fff"
-                  alt="jardim-maravilha"
-                />
-
-                <h3>JARDIM MARAVILHA</h3>
-
-                <div class="card-footer">
-                  <p>Todos os dias</p>
-
-                  <p>14h às 22h</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="section-cardapio">
-          <div class="wrapper">
-            <h2 class="section-title">CARDÁPIO</h2>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-              nesciunt nemo delectus velit excepturi perspiciatis tempora
-              ducimus aut, itaque saepe! Esse molestias totam voluptates magni
-              distinctio corporis vel fugiat sit?
-            </p>
-
-            <div class="category-container">
-              <h3 class="category-title">ENTRADAS</h3>
-
-              <hr />
-
-              <div class="cards-container">
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="category-container">
-              <h3 class="category-title">PRINCIPAIS</h3>
-
-              <hr />
-
-              <div class="cards-container">
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="category-container">
-              <h3 class="category-title">MOLHOS</h3>
-
-              <hr />
-
-              <div class="cards-container">
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="category-container">
-              <h3 class="category-title">ACOMPANHAMENTOS</h3>
-
-              <hr />
-
-              <div class="cards-container">
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="category-container">
-              <h3 class="category-title">BEBIDAS</h3>
-
-              <hr />
-
-              <div class="cards-container">
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card no-shadow">
-                  <img
-                    src="https://dummyimage.com/150x100/000/fff"
-                    alt="hamburguer"
-                  />
-                  <h3>Hamburguer</h3>
-                  <div class="card-footer">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="section-gap">
-          <div class="mask"></div>
-
-          <div class="wrapper">
-            <h2 class="section-title">HAPPY HOUR</h2>
-
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Consequatur ex cum error iure eligendi maxime dicta, possimus
-              voluptatem suscipit itaque? Quaerat commodi quibusdam velit ipsam
-              fuga maxime ipsa doloremque. Aut!
-            </p>
-          </div>
-        </section>
-
-        <section id="section-historia">
-          <div class="wrapper">
-            <h2 class="section-title">CONHEÇA A GENTE</h2>
-
-            <div class="historia-info">
-              <img src="https://dummyimage.com/400x400/333/aaa" alt="dummy" />
-
-              <div class="historia-description">
-                <h3>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </h3>
-
-                <br />
-
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Expedita iste, exercitationem reiciendis, impedit dolorum id
-                  veniam, modi necessitatibus facere.
-                </p>
-
-                <br />
-
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Voluptas reprehenderit eius porro vel perferendis maiores
-                  libero quis doloribus magnam, expedita nemo. Reiciendis, quia.
-                </p>
-
-                <br />
-
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Voluptas reprehenderit eius porro vel perferendis fugit
-                  quaerat ipsam at accusamus nisi consequatur maiores libero
-                  quis doloribus magnam, expedita nemo. Reiciendis, quia.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="section-contato">
-          <div class="wrapper">
-            <h2 class="section-title">FALE CONOSCO</h2>
-
-            <div class="contato-info">
-              <form>
-                <input type="text" placeholder="Nome" />
-
-                <input type="email" placeholder="E-mail" />
-
-                <textarea placeholder="Mensagem"></textarea>
-
-                <button type="submit">Enviar</button>
-              </form>
-
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15801.635904460332!2d-34.8724827!3d-8.0596986!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18a2e1380345%3A0x24c7863e4d95ddd4!2sCESAR%20School!5e0!3m2!1spt-BR!2sbr!4v1712793568955!5m2!1spt-BR!2sbr"
-                width="600"
-                height="450"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
-          </div>
-        </section>
-      </main>
-    </div>
-  </body>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="public/styles/colors.css" />
+		<link rel="stylesheet" href="public/styles/style.css" />
+		<link rel="stylesheet" href="public/styles/main.css" />
+		<link rel="stylesheet" href="public/styles/nav.css" />
+		<link rel="stylesheet" href="public/styles/media.css" />
+	</head>
+	<body>
+		<div id="container">
+			<div id="topbar">
+				<div id="logo">
+					<a href="#">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+							<path
+								d="M61.1 224C45 224 32 211 32 194.9c0-1.9 .2-3.7 .6-5.6C37.9 168.3 78.8 32 256 32s218.1 136.3 223.4 157.3c.5 1.9 .6 3.7 .6 5.6c0 16.1-13 29.1-29.1 29.1H61.1zM144 128a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm240 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM272 96a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM16 304c0-26.5 21.5-48 48-48H448c26.5 0 48 21.5 48 48s-21.5 48-48 48H64c-26.5 0-48-21.5-48-48zm16 96c0-8.8 7.2-16 16-16H464c8.8 0 16 7.2 16 16v16c0 35.3-28.7 64-64 64H96c-35.3 0-64-28.7-64-64V400z"
+							/>
+						</svg>
+
+						<p>MOCOTÓ STEAKHOUSE</p>
+					</a>
+				</div>
+
+				<div id="menu">
+					<nav>
+						<a href="#section-melhores">MELHORES</a>
+						<a href="#section-horarios">HORÁRIOS</a>
+						<a href="#section-cardapio">CARDÁPIO</a>
+						<a href="#section-historia">HISTÓRIA</a>
+						<a href="#section-contato">CONTATO</a>
+					</nav>
+
+					<div class="button-container">
+						<button id="lang-toggle" type="button" title="lang">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+							>
+								<path
+									d=" M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z "
+								></path>
+							</svg>
+						</button>
+					</div>
+
+					<div class="button-container">
+						<button id="menu-toggle" type="button" title="Toggle Menu">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+							>
+								<path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path>
+							</svg>
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<main>
+				<section id="section-hero">
+					<div class="mask"></div>
+
+					<div class="hero-info">
+						<h1>A <span>MELHOR</span> DA REGIÃO</h1>
+						<p>
+							Mocotó Steak House é um ambiente acolhedor e descontraído,
+							decorado com artesanato local e música nordestina ao vivo
+							nas noites de sexta-feira, com deliciosos hambúrgueres e
+							petiscos.
+						</p>
+					</div>
+				</section>
+
+				<section id="section-melhores">
+					<div class="wrapper">
+						<div class="melhores-left">
+							<div class="melhores-info">
+								<h2 class="section-title">MELHORES DA CASA</h2>
+							</div>
+						</div>
+
+						<div class="melhores-right">
+							<div class="card">
+								<img
+									src="./public/img/mocoto burguer.jpg"
+									alt="hamburguer"
+								/>
+								<h3>Mocotó burguer</h3>
+
+								<div class="card-footer">
+									<p>
+										Pão Brioche, Carne 100% Angus (170g), Queijo
+										Cheddar, Fatias de Bacon super crocantes e
+										Barbecue.
+									</p>
+								</div>
+							</div>
+
+							<div class="card">
+								<img
+									src="./public/img/batatinha.jpg"
+									alt="batata-rustica"
+								/>
+								<h3>Batata Rústica</h3>
+
+								<div class="card-footer">
+									<p>Deliciosa batata rústica com paprica.</p>
+								</div>
+							</div>
+
+							<div class="card">
+								<img
+									src="./public/img/milkshake.jpg"
+									alt="milk-shake"
+								/>
+								<h3>Milk Shake</h3>
+
+								<div class="card-footer">
+									<p>
+										Delicioso milk shake de morango com calda de
+										morango.
+									</p>
+								</div>
+							</div>
+
+							<div class="card">
+								<img
+									src="./public/img/bolo de morango.jpg"
+									alt="bolo-morango"
+								/>
+								<h3>Bolo de Morango</h3>
+
+								<div class="card-footer">
+									<p>Fatia de um delicioso bolo de morango.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="section-horarios">
+					<div class="wrapper">
+						<h2 class="section-title text-center">HORÁRIOS</h2>
+
+						<div class="horarios-info">
+							<div class="card on-black no-shadow">
+								<img src="./public/img/morro.jpg" alt="morro" />
+
+								<h3>MORRO</h3>
+
+								<div class="card-footer">
+									<p>Segundas às sextas</p>
+
+									<p>12h às 22h</p>
+								</div>
+							</div>
+
+							<div class="card card on-black no-shadow">
+								<img src="./public/img/torre.jpg" alt="torre" />
+
+								<h3>TORRE</h3>
+
+								<div class="card-footer">
+									<p>Terças às sextas</p>
+
+									<p>10h às 23h</p>
+								</div>
+							</div>
+
+							<div class="card card on-black no-shadow">
+								<img
+									src="./public/img/Casa Forte.jpg"
+									alt="casa forte"
+								/>
+
+								<h3>CASA FORTE</h3>
+
+								<div class="card-footer">
+									<p>Todos os dias</p>
+
+									<p>14h às 22h</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="section-cardapio">
+					<div class="wrapper">
+						<h2 class="section-title">CARDÁPIO</h2>
+
+						<div class="category-container">
+							<h3 class="category-title">ENTRADAS</h3>
+
+							<hr />
+
+							<div class="cards-container">
+								<div class="card no-shadow">
+									<img
+										src="./public/img/pastel de camarão.jpg"
+										alt="pastel de camarão"
+									/>
+									<h3>Pastel de Camarão</h3>
+									<div class="card-footer">
+										<p>
+											Massa cozida à base de fubá, recheado com creme
+											de camarão e requeijão.
+										</p>
+									</div>
+								</div>
+
+								<div class="card no-shadow">
+									<img
+										src="./public/img/pastelcostela.webp"
+										alt="pastel de costela"
+									/>
+									<h3>Pastel de Costela</h3>
+									<div class="card-footer">
+										<p>
+											Pastel crocante recheado com suculenta costela
+											bovina lentamente cozida até a perfeição.
+										</p>
+									</div>
+								</div>
+
+								<div class="card no-shadow">
+									<img
+										src="./public/img/caldinho camarão.jpg"
+										alt="caldinho de camarão"
+									/>
+									<h3>Caldinho de Camarão</h3>
+									<div class="card-footer">
+										<p>
+											Caldinho cremoso de camarão, preparado com
+											ingredientes frescos e selecionados.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="category-container">
+							<h3 class="category-title">PRINCIPAIS</h3>
+
+							<hr />
+
+							<div class="cards-container">
+								<div class="card no-shadow">
+									<img
+										src="./public/img/hamburguer.jpg"
+										alt="hamburguer classico"
+									/>
+									<h3>Moco Clássico</h3>
+									<div class="card-footer">
+										<p>
+											Um suculento hambúrguer de carne bovina (100%),
+											queijo derretido e salada fresca.
+										</p>
+									</div>
+								</div>
+
+								<div class="card no-shadow">
+									<img
+										src="./public/img/burguer cebola.jpg"
+										alt="hamburguer com cebola"
+									/>
+									<h3>Mocotó Caramelizado</h3>
+									<div class="card-footer">
+										<p>
+											Um suculento hambúrguer de carne bovina (100%)
+											com queijo muçarela e cebola roxa caramelizada
+											no pão de hambúrguer com crosta de parmesão e
+											tomilho.
+										</p>
+									</div>
+								</div>
+
+								<div class="card no-shadow">
+									<img
+										src="./public/img/mocoto coalho.jpg"
+										alt="hamburguer de queijo coalho"
+									/>
+									<h3>Mocotó Coalho</h3>
+									<div class="card-footer">
+										<p>
+											Um suculento hambúrguer de carne bovina
+											(100%),queijo coalho e bacon.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="category-container">
+							<h3 class="category-title">MOLHOS</h3>
+
+							<hr />
+
+							<div class="cards-container">
+								<div class="card no-shadow">
+									<img
+										src="./public/img/molho ketchup.jpg"
+										alt="ketchup"
+									/>
+									<h3>Molho Ketchup</h3>
+									<div class="card-footer"></div>
+								</div>
+
+								<div class="card no-shadow">
+									<img
+										src="./public/img/molho barbecue.jpg"
+										alt="molho barbecue"
+									/>
+									<h3>Molho Barbecue</h3>
+									<div class="card-footer"></div>
+								</div>
+
+								<div class="card no-shadow">
+									<img
+										src="./public/img/maionese temperada.jpg"
+										alt="maionese temperada"
+									/>
+									<h3>Molho Maionese da Casa</h3>
+									<div class="card-footer"></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="category-container">
+							<h3 class="category-title">ACOMPANHAMENTOS</h3>
+
+							<hr />
+
+							<div class="cards-container">
+								<div class="card no-shadow">
+									<img
+										src="./public/img/batata cheddar.avif"
+										alt="batata cheddar e bacon"
+									/>
+									<h3>Batata Cheddar e Bacon</h3>
+									<div class="card-footer">
+										<p>
+											Batata deliciosamente crocante, coberta com
+											queijo cheddar derretido e pedaços suculentos
+											de bacon.
+										</p>
+									</div>
+								</div>
+
+								<div class="card no-shadow">
+									<img
+										src="./public/img/mandioca frita.webp"
+										alt="mandioca"
+									/>
+									<h3>Mandioca Frita</h3>
+									<div class="card-footer">
+										<p>Deliciosa mandioca frita e crocante.</p>
+									</div>
+								</div>
+
+								<div class="card no-shadow">
+									<img
+										src="./public/img/aneis de cebola.webp"
+										alt="onion ring"
+									/>
+									<h3>Onion Rings</h3>
+									<div class="card-footer">
+										<p>
+											Fatias de cebola empanadas e fritas, oferecendo
+											uma textura crocante por fora e macia por
+											dentro.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="category-container">
+							<h3 class="category-title">SOBREMESAS</h3>
+
+							<hr />
+
+							<div class="cards-container">
+								<div class="card no-shadow">
+									<img
+										src="./public/img/sorvete chocolate.avif"
+										alt="sorvete de chocolate"
+									/>
+									<h3>Sorvete de Chocolate Belga</h3>
+									<div class="card-footer">
+										<p>
+											Sorvete de Chocolate Belga, feito com os mais
+											finos cacaus belgas.
+										</p>
+									</div>
+								</div>
+
+								<div class="card no-shadow">
+									<img
+										src="./public/img/petit gateau.webp"
+										alt="petit gateau"
+									/>
+									<h3>Petit Gateau</h3>
+									<div class="card-footer">
+										<p>
+											Bolo quente e cremoso, com um centro derretido
+											de chocolate, servido com uma bola de sorvete
+											de baunilha.
+										</p>
+									</div>
+								</div>
+
+								<div class="card no-shadow">
+									<img src="./public/img/pudim.png" alt="pudim" />
+									<h3>Pudim</h3>
+									<div class="card-footer">
+										<p>
+											Uma pudim delicioso de textura suave e sabor
+											delicado.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="section-gap">
+					<div class="mask"></div>
+
+					<div class="wrapper">
+						<h2 class="section-title">HAPPY HOUR</h2>
+
+						<p>Segunda a Sexta das 16:00 a 19:00</p>
+					</div>
+				</section>
+
+				<section id="section-historia">
+					<div class="wrapper">
+						<h2 class="section-title">CONHEÇA A GENTE</h2>
+
+						<div class="historia-info">
+							<img src="./public/img/Casa Forte.jpg" alt="historia" />
+
+							<div class="historia-description">
+								<h3>NOSSA HISTORIA</h3>
+
+								<br />
+
+								<p>
+									O restaurante pertencia a Dona Maria, uma mulher
+									forte e determinada, cujo amor pela culinária
+									nordestina era tão grande quanto sua gentileza. Ela
+									trazia consigo receitas transmitidas por gerações em
+									sua família, mas estava determinada a colocar um
+									toque único em suas criações.
+								</p>
+
+								<br />
+
+								<p>
+									O sucesso do Mocotó Steak não se limitava apenas à
+									comida excepcional. O ambiente acolhedor e
+									descontraído, decorado com artesanato local e música
+									nordestina ao vivo nas noites de sexta-feira, fazia
+									com que os clientes se sentissem em casa.
+								</p>
+
+								<br />
+
+								<p>
+									Com o tempo, o Mocotó Steak se tornou mais do que um
+									simples restaurante; era um símbolo de orgulho e
+									tradição para a cidade. As pessoas vinham de longe
+									para saborear os deliciosos hambúrgueres de Dona
+									Maria e desfrutar da hospitalidade calorosa que só
+									ela sabia oferecer. E assim, o Mocotó Steak
+									continuava a prosperar, mantendo viva a rica cultura
+									culinária do Nordeste brasileiro.
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="section-contato">
+					<div class="wrapper">
+						<h2 class="section-title">FALE CONOSCO</h2>
+
+						<div class="contato-info">
+							<form name="form-contato" onsubmit="submitForm(event)">
+								<input
+									type="text"
+									name="nome"
+									placeholder="Seu nome"
+									oninput="validateNome()"
+								/>
+
+								<p id="error-nome" class="error-tip">
+									Nome deve ter no mínimo 3 caracteres
+								</p>
+
+								<input
+									type="email"
+									name="email"
+									oninput="validateEmail()"
+									placeholder="Seu melhor e-mail"
+								/>
+
+								<p id="error-email" class="error-tip">Email inválido</p>
+
+								<textarea
+									name="mensagem"
+									oninput="validateMensagem()"
+									placeholder="Sua mensagem"
+								></textarea>
+
+								<p id="error-mensagem" class="error-tip">
+									Mensagem deve ter no mínimo 10 caracteres
+								</p>
+
+								<button title="enviar" type="submit">Enviar</button>
+							</form>
+
+							<iframe
+								title="mapa"
+								src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15801.635904460332!2d-34.8724827!3d-8.0596986!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18a2e1380345%3A0x24c7863e4d95ddd4!2sCESAR%20School!5e0!3m2!1spt-BR!2sbr!4v1712793568955!5m2!1spt-BR!2sbr"
+								width="600"
+								height="450"
+								style="border: 0"
+								allowfullscreen=""
+								loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"
+							></iframe>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+
+		<script src="public/scripts/form.js"></script>
+	</body>
 </html>
