@@ -1,11 +1,18 @@
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
+	#mask-container,
+	#nav-side {
+		display: none !important;
+	}
+
 	.card {
 		gap: 24px;
+		max-width: 375px;
+		overflow: hidden;
 	}
 
 	.card img {
-		width: 400px;
-		height: 400px;
+		width: 100%;
+		height: 350px;
 	}
 
 	.card:not(.no-shadow) {
@@ -15,10 +22,11 @@
 	#section-melhores .wrapper {
 		flex-direction: row;
 		justify-content: space-between;
+		gap: 4rem;
 	}
 
 	#section-melhores .melhores-left {
-		width: 34%;
+		width: 32%;
 		display: flex;
 	}
 
@@ -32,10 +40,11 @@
 
 	#section-melhores .card img {
 		width: 100%;
-		height: 300px;
+		height: 350px;
 	}
 
 	#section-horarios .horarios-info {
+		padding-bottom: 0;
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 	}
@@ -46,7 +55,8 @@
 
 	#section-cardapio .cards-container {
 		display: grid;
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: repeat(3, 1fr);
+		overflow: hidden;
 		gap: 12px;
 	}
 

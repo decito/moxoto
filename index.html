@@ -8,10 +8,33 @@
 		<link rel="stylesheet" href="public/styles/style.css" />
 		<link rel="stylesheet" href="public/styles/main.css" />
 		<link rel="stylesheet" href="public/styles/nav.css" />
+		<link rel="stylesheet" href="public/styles/navside.css" />
 		<link rel="stylesheet" href="public/styles/media.css" />
 	</head>
 	<body>
+		<nav id="nav-side">
+			<div id="nav-side-container">
+				<button title="Fechar" type="button" onclick="closeNavside()">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+						<path
+							d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"
+						/>
+					</svg>
+				</button>
+
+				<div id="nav-side-links">
+					<a href="#section-melhores" onclick="closeNavside()">MELHORES</a>
+					<a href="#section-horarios" onclick="closeNavside()">HORÁRIOS</a>
+					<a href="#section-cardapio" onclick="closeNavside()">CARDÁPIO</a>
+					<a href="#section-historia" onclick="closeNavside()">HISTÓRIA</a>
+					<a href="#section-contato" onclick="closeNavside()">CONTATO</a>
+				</div>
+			</div>
+		</nav>
+
 		<div id="container">
+			<div id="mask-container"></div>
+
 			<div id="topbar">
 				<div id="logo">
 					<a href="#">
@@ -21,12 +44,12 @@
 							/>
 						</svg>
 
-						<p>MOCOTÓ STEAKHOUSE</p>
+						<p>MCT STEAKHOUSE</p>
 					</a>
 				</div>
 
 				<div id="menu">
-					<nav>
+					<nav id="nav-desktop">
 						<a href="#section-melhores">MELHORES</a>
 						<a href="#section-horarios">HORÁRIOS</a>
 						<a href="#section-cardapio">CARDÁPIO</a>
@@ -50,7 +73,12 @@
 					</div>
 
 					<div class="button-container">
-						<button id="menu-toggle" type="button" title="Toggle Menu">
+						<button
+							id="menu-toggle"
+							type="button"
+							title="Toggle Menu"
+							onclick="openNavside()"
+						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								width="24"
@@ -83,7 +111,10 @@
 					<div class="wrapper">
 						<div class="melhores-left">
 							<div class="melhores-info">
-								<h2 class="section-title">MELHORES DA CASA</h2>
+								<h2 class="section-title">
+									MELHORES <br />
+									DA CASA
+								</h2>
 							</div>
 						</div>
 
@@ -547,5 +578,6 @@
 		</div>
 
 		<script src="public/scripts/form.js"></script>
+		<script src="public/scripts/navside.js"></script>
 	</body>
 </html>
